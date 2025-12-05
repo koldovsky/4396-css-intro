@@ -1,0 +1,91 @@
+<section class="booking-form">
+  <div class="booking-form__header">
+    <img
+      class="booking-form__icon"
+      src="img/hero/hero-calculator.webp"
+      alt="Diving icon"
+      width="64"
+      height="64"
+    />
+    <h2 class="booking-form__title">Ready to Go Diving?</h2>
+    <p class="booking-form__description">
+      Complete the form below and book your diving package!
+    </p>
+  </div>
+
+  <form
+    class="booking-form__form"
+    action="https://formspree.io/f/xkgdblog"
+    method="post"
+  >
+    <div class="booking-form__field">
+      <label class="booking-form__label" for="name">Name</label>
+      <input
+        class="booking-form__input"
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Name*"
+        required
+      />
+    </div>
+
+    <div class="booking-form__field">
+      <label class="booking-form__label" for="phone">Phone number</label>
+      <input
+        class="booking-form__input"
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="Phone number*"
+        pattern="[0-9+\-\s]+"
+        required
+      />
+    </div>
+
+    <div class="booking-form__field">
+      <label class="booking-form__label" for="email">E-mail</label>
+      <input
+        class="booking-form__input"
+        type="email"
+        id="email"
+        name="email"
+        placeholder="E-mail*"
+        required
+      />
+    </div>
+
+    <div class="booking-form__field">
+      <label class="booking-form__label" for="package">Diving package</label>
+      <select class="booking-form__select" id="package" name="package" required>
+        <option value="" disabled selected>Select a diving package</option>
+        <option value="beginner">Beginner Discovery Dive</option>
+        <option value="open-water">Open Water Certification</option>
+        <option value="advanced">Advanced Adventure Dive</option>
+        <option value="night">Night Diving Experience</option>
+        <option value="wreck">Wreck Diving Expedition</option>
+      </select>
+    </div>
+
+    <button class="booking-form__submit" type="submit">Request a Quote</button>
+  </form>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1165.186481477444!2d24.026414748581303!3d49.843586568833565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add72f9bc6a89%3A0xf9783fecb4fecf1f!2sLviv%20National%20Opera!5e0!3m2!1sen!2sua!4v1764779871362!5m2!1sen!2sua"
+    width="600"
+    height="450"
+    style="border: 0"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+  ></iframe>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/z7fqmpXjVOs?si=6BBDxkE54jd1BzLL"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</section>
